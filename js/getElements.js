@@ -46,14 +46,14 @@ document.getElementById("first-button").style.backgroundColor = "yellow";
 
 // **Query selector**
 
-// similarly, can use queries to select elements using CSS 
-document.write("<br>" + ".btn: " + document.querySelector(".btn"));  // select class 
-document.write("<br>" + "#title: " + document.querySelector("#title"));  // select title 
+// // similarly, can use queries to select elements using CSS 
+// document.write("<br>" + ".btn: " + document.querySelector(".btn"));  // select class 
+// document.write("<br>" + "#title: " + document.querySelector("#title"));  // select title 
 
-// hierarchical selector
-document.write("<br>" + "#list a: " + document.querySelector("#list a"));  // select class 
+// // hierarchical selector
+// document.write("<br>" + "#list a: " + document.querySelector("#list a"));  // select class 
 
-// hierarchical selector
-document.write("<br>" + "#list .list: " + document.querySelector("#list .list"));  // select class 
-// document.querySelector("#list .list")[2].style.color = "blue"; // object manipulation
+// // hierarchical selector
+// document.write("<br>" + "#list .list: " + document.querySelector("#list .list"));  // select class 
+// // document.querySelector("#list .list")[2].style.color = "blue"; // object manipulation
 
