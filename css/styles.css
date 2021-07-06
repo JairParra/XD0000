@@ -9,6 +9,23 @@
     font-weight: bold;
 }
 
+.blockdiv { 
+    height: 100px; 
+    width: 100px; 
+    background-color: lightgrey;
+    position: relative;
+    margin: 0;
+    align-content: center;
+}
+
+
+.yellow { 
+    height: 100px; 
+    width: 100px; 
+    background-color: yellow;
+    position: relative;
+    margin: 0;
+}
 /************************CLASS SELECTORS**************************/
 
 

@@ -41,7 +41,7 @@ function hideButton(){
     if (button.style.visibility !== "hidden"){ 
         button.style.visibility = "hidden"; 
         // lambda function to return visibility to visible 
-        setTimeout( () => {button.style.visibility = "visible"}, 3000); 
+        setTimeout( () => {button.style.visibility = "visible"}, 2500); 
     }
     else if (button.style.visibility === "hidden"){ 
         button.style.visibility = "visible"; 
@@ -49,8 +49,9 @@ function hideButton(){
     else { 
         button.style.visibility = "hidden"; 
         // lambda function to return visibility to visible 
-        setTimeout( () => {button.style.visibility = "visible"}, 3000); 
+        setTimeout( () => {button.style.visibility = "visible"}, 2500); 
     }
+    button.innerHTML = "Click me again!";
     called++; 
 
 }
