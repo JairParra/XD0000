@@ -1,4 +1,4 @@
-$(".doggoshow").mouseenter(function(){
+$(".Your_class").mouseenter(function(){
     if ($(this).parent('div').children('div.image').length) {
         $(this).parent('div').children('div.image').show();
     } else {
@@ -8,6 +8,6 @@ $(".doggoshow").mouseenter(function(){
     }
 });
 
-$(".doggoshow").mouseleave(function(){
+$(".Your_class").mouseleave(function(){
     $(this).parent('div').children('div.image').hide();
 });
